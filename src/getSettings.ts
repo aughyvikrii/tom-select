@@ -1,7 +1,7 @@
 import defaults from './defaults.ts';
 import { hash_key, iterate } from './utils.ts';
-import { TomOption, TomSettings, RecursivePartial } from './types/index.ts';
-import { TomInput } from './types/index.ts';
+import type { TomOption, TomSettings, RecursivePartial } from './types/index.ts';
+import type { TomInput } from './types/index.ts';
 
 
 export default function getSettings( input:TomInput, settings_user:RecursivePartial<TomSettings>):TomSettings{
